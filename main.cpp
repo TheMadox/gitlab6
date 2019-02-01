@@ -1,5 +1,6 @@
 #include <iostream>
 #include "features.h"
+#include <cmath>
 using namespace std;
 
 int main()
@@ -9,5 +10,6 @@ int main()
    cout<< endl <<odejmowanie(6,3);
    cout<< endl << mnozenie(9,8);
     cout<< endl <<dzielenie(6,2);
+cout <<endl<< pow(5,2);
     return 0;
 }
